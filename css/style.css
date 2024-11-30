@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap");
+@import "../fontawesome/css/all.min.css";
+:root {
+  --background: #292929;
+  --background-semidark: #1f1f1f;
+  --background-darker: #141414;
+  --background-lighter: #313131;
+  --accent: #a89d9d;
+  --accent-darker: #928e8e;
+  --accent-darkest: #787070;
+  --top-padding: 110px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+}
+
+.emoji {
+  font-family: "Noto Color Emoji", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lora {
+  font-family: "Lora";
+}/*# sourceMappingURL=style.css.map */
